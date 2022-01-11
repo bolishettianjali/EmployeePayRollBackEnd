@@ -1,0 +1,928 @@
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Function.listen (D:\EmployePayRoll\emppayroll\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32) {"date":"Mon Jan 10 2022 14:02:31 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":100940},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19040928,"external":20759776,"heapTotal":91283456,"heapUsed":60930464,"rss":127594496},"pid":16656,"uid":null,"version":"v17.3.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n    at listenInCluster (node:net:1378:12)\n    at Server.listen (node:net:1465:7)\n    at Function.listen (D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)","timestamp":"2022-01-10T08:32:31.988Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1330,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1378,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Function.listen (D:\EmployePayRoll\emppayroll\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32) {"date":"Mon Jan 10 2022 14:04:19 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101048},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19008301,"external":20727149,"heapTotal":93118464,"heapUsed":60415944,"rss":129495040},"pid":23384,"uid":null,"version":"v17.3.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n    at listenInCluster (node:net:1378:12)\n    at Server.listen (node:net:1465:7)\n    at Function.listen (D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)","timestamp":"2022-01-10T08:34:19.623Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1330,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1378,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Function.listen (D:\EmployePayRoll\emppayroll\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32) {"date":"Mon Jan 10 2022 14:05:55 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101144},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19056396,"external":20775244,"heapTotal":92069888,"heapUsed":61354744,"rss":128495616},"pid":4168,"uid":null,"version":"v17.3.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n    at listenInCluster (node:net:1378:12)\n    at Server.listen (node:net:1465:7)\n    at Function.listen (D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)","timestamp":"2022-01-10T08:35:55.667Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1330,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1378,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Function.listen (D:\EmployePayRoll\emppayroll\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32) {"date":"Mon Jan 10 2022 14:06:27 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101176},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19065375,"external":20784223,"heapTotal":91807744,"heapUsed":61286440,"rss":128831488},"pid":18580,"uid":null,"version":"v17.3.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n    at listenInCluster (node:net:1378:12)\n    at Server.listen (node:net:1465:7)\n    at Function.listen (D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)","timestamp":"2022-01-10T08:36:27.624Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1330,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1378,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Function.listen (D:\EmployePayRoll\emppayroll\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32) {"date":"Mon Jan 10 2022 14:06:27 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101176},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19026979,"external":20745827,"heapTotal":92594176,"heapUsed":61072736,"rss":128761856},"pid":20476,"uid":null,"version":"v17.3.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n    at listenInCluster (node:net:1378:12)\n    at Server.listen (node:net:1465:7)\n    at Function.listen (D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)","timestamp":"2022-01-10T08:36:27.758Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1330,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1378,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5050
+Error: listen EADDRINUSE: address already in use :::5050
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Function.listen (D:\EmployePayRoll\emppayroll\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32) {"date":"Mon Jan 10 2022 14:23:11 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5050,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102180},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19139832,"external":20858680,"heapTotal":92856320,"heapUsed":61555544,"rss":129765376},"pid":440,"uid":null,"version":"v17.3.0"},"stack":"Error: listen EADDRINUSE: address already in use :::5050\n    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n    at listenInCluster (node:net:1378:12)\n    at Server.listen (node:net:1465:7)\n    at Function.listen (D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)","timestamp":"2022-01-10T08:53:12.008Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1330,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1378,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5050
+Error: listen EADDRINUSE: address already in use :::5050
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Function.listen (D:\EmployePayRoll\emppayroll\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32) {"date":"Mon Jan 10 2022 14:32:10 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5050,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102718},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19101436,"external":20820284,"heapTotal":92594176,"heapUsed":61654816,"rss":129822720},"pid":2392,"uid":null,"version":"v17.3.0"},"stack":"Error: listen EADDRINUSE: address already in use :::5050\n    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n    at listenInCluster (node:net:1378:12)\n    at Server.listen (node:net:1465:7)\n    at Function.listen (D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)","timestamp":"2022-01-10T09:02:10.504Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1330,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1378,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:07:10.893Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:08:38.180Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:08:39.912Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:08:53.234Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /user/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:10:03.919Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:12:13.403Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:12:25.225Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:12:26.676Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:13:22.316Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:13:23.481Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:13:25.135Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:35.884Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:52.417Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:53.631Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:54.556Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:55.534Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:18:52.985Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:18:54.849Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:19:20.227Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:21:10.512Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:21:11.732Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:21:17.464Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:21:20.665Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:12.109Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:18.324Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:19.857Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:21.515Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:30.745Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userData is not defined
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:27)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T11:08:54.959Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userData is not defined
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:27)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:28:27.468Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.registerUserService is not a function
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:12:36)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at registerUser (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:9:27)
+    at Layer.handle [as handle_request] (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\layer.js:95:5)
+    at D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:35:21.531Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:34)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.registerUserService (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:33)
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:12:36)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:39:07.615Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:34)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.registerUserService (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:33)
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:12:36)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:39:09.266Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:27:13)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T16:52:55.548Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:27:13)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:02:27.796Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:28:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:04:11.526Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:28:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:05:55.488Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:272:11)
+    at ServerResponse.writeHead (D:\EmployePayRoll\emppayroll\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:263:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (D:\EmployePayRoll\emppayroll\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\EmployePayRoll\emppayroll\node_modules\express\lib\response.js:267:15)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:37:34)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:06:24.369Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.loginUser is not a function
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:35:34)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at loginUser (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:33:23)
+    at Layer.handle [as handle_request] (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\layer.js:95:5)
+    at D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:10:41.260Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T05:43:47.394Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T05:44:16.615Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T05:44:16.963Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T06:46:54.689Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5050
+Error: listen EADDRINUSE: address already in use :::5050
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Function.listen (D:\EmployePayRoll\emppayroll\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32) {"date":"Tue Jan 11 2022 12:38:50 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5050,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":182317},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19103145,"external":20821993,"heapTotal":93118464,"heapUsed":66277544,"rss":130220032},"pid":16812,"uid":null,"version":"v17.3.0"},"stack":"Error: listen EADDRINUSE: address already in use :::5050\n    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n    at listenInCluster (node:net:1378:12)\n    at Server.listen (node:net:1465:7)\n    at Function.listen (D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)","timestamp":"2022-01-11T07:08:50.086Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1330,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1378,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\EmployePayRoll\\emppayroll\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:43:50.012Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:44:56.325Z"}
+error: 
+    status - 500 
+    message - ReferenceError: token is not defined
+    at D:\EmployePayRoll\emppayroll\src\services\/user.service.js:41:18
+    at new Promise (<anonymous>)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:32:14)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:49:39.132Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:58:43.036Z"}

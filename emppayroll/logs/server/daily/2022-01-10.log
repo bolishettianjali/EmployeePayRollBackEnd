@@ -1,0 +1,742 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T07:32:15.375Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:32:17.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T08:07:09.514Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:07:11.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T08:07:42.598Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:07:44.902Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:32:34.370Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:34:22.037Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:35:58.112Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-01-10T08:36:27.552Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:36:29.826Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:36:29.976Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:36:30.086Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T08:40:05.808Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:40:08.021Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T08:53:11.986Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:53:14.231Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:53:14.408Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T09:02:10.451Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:02:12.774Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:02:12.809Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T09:06:51.016Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:06:53.277Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:07:10.893Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:08:38.180Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:08:39.912Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:08:53.234Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /user/registerUser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:10:03.919Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T09:11:46.866Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:11:49.176Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /user/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:12:13.403Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:12:25.225Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:12:26.676Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:13:22.316Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:13:23.481Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:13:25.135Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:35.884Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:52.417Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:53.631Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:54.556Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:17:55.534Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T09:18:17.293Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:18:19.661Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:18:52.985Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:18:54.849Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:19:20.227Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T09:21:00.602Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:21:03.009Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:21:10.512Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:21:11.732Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:21:17.464Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:21:20.665Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T09:21:53.716Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:21:56.016Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:12.109Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:18.324Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:19.857Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:21.515Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 49
+    at JSON.parse (<anonymous>)
+    at parse (D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\EmployePayRoll\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\EmployePayRoll\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T09:22:30.745Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T10:02:36.488Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T10:02:38.992Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T10:05:53.745Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T10:05:56.785Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T11:08:43.504Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:08:47.998Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userData is not defined
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:27)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T11:08:54.959Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T11:10:34.980Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:10:39.041Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T12:26:48.587Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:26:51.815Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T12:27:05.438Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:27:08.544Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T12:27:43.244Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:27:46.090Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userData is not defined
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:27)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:28:27.468Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T12:35:13.339Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:35:16.410Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.registerUserService is not a function
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:12:36)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at registerUser (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:9:27)
+    at Layer.handle [as handle_request] (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\layer.js:95:5)
+    at D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:35:21.531Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T12:38:57.425Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:39:00.807Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T12:39:04.249Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:39:06.469Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:34)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.registerUserService (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:33)
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:12:36)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:39:07.615Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:34)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.registerUserService (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:3:33)
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:12:36)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T12:39:09.266Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T16:07:30.334Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:07:32.693Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T16:48:38.594Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:48:41.279Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T16:51:00.381Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:51:03.317Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:27:13)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T16:52:55.548Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T17:02:16.191Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:02:18.607Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:27:13)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:02:27.796Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T17:03:55.972Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:03:58.246Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:28:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:04:11.526Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:28:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:05:55.488Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T17:06:15.041Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:06:17.600Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:272:11)
+    at ServerResponse.writeHead (D:\EmployePayRoll\emppayroll\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:263:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (D:\EmployePayRoll\emppayroll\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\EmployePayRoll\emppayroll\node_modules\express\lib\response.js:267:15)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:37:34)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:06:24.369Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T17:10:10.620Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:10:13.733Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.loginUser is not a function
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:35:34)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at loginUser (D:\EmployePayRoll\emppayroll\src\controllers\/user.controller.js:33:23)
+    at Layer.handle [as handle_request] (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\layer.js:95:5)
+    at D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\EmployePayRoll\emppayroll\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-10T17:10:41.260Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T17:15:26.980Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:15:29.316Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T17:15:40.349Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:15:42.684Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-10T17:17:20.823Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:17:23.254Z"}

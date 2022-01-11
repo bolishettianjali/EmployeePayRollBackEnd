@@ -1,0 +1,135 @@
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T05:39:03.622Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:39:05.877Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T05:39:43.085Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:39:45.210Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T05:43:47.394Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T05:44:16.615Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T05:44:16.963Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T06:46:45.669Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T06:46:48.991Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T06:46:54.689Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T07:43:34.032Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:43:38.517Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:43:50.012Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T07:44:25.677Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:44:29.820Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:44:56.325Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T07:49:23.284Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:49:26.512Z"}
+error: 
+    status - 500 
+    message - ReferenceError: token is not defined
+    at D:\EmployePayRoll\emppayroll\src\services\/user.service.js:41:18
+    at new Promise (<anonymous>)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:32:14)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:49:39.132Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T07:55:57.713Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:56:00.947Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\EmployePayRoll\emppayroll\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/user.service.js:31:25)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T07:58:43.036Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T07:59:25.100Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:59:28.447Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T08:14:33.404Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:14:39.885Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T09:43:50.201Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T09:43:52.998Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-11T10:52:32.851Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T10:52:35.042Z"}
