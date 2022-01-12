@@ -8,7 +8,7 @@ import * as UserService from '../services/user.service';
  * @param {Function} next
  */
 
-export const registerUser = async (req, res, next)=>{
+export const registerUser = async (req)=>{
   try{
     const data = await UserService.registerUserService(req.body);
     console.log(data)
