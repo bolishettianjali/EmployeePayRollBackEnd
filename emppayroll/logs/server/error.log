@@ -926,3 +926,246 @@ error:
     method - GET 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-01-11T07:58:43.036Z"}
+error: uncaughtException: empRoute is not defined
+ReferenceError: empRoute is not defined
+    at routes (D:\EmployePayRoll\emppayroll\src\routes\/index.js:15:21)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Jan 11 2022 17:19:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":199138},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18448509,"external":20147859,"heapTotal":93642752,"heapUsed":56332600,"rss":128856064},"pid":18032,"uid":null,"version":"v17.3.0"},"stack":"ReferenceError: empRoute is not defined\n    at routes (D:\\EmployePayRoll\\emppayroll\\src\\routes\\/index.js:15:21)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-01-11T11:49:11.445Z","trace":[{"column":21,"file":"D:\\EmployePayRoll\\emppayroll\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":32,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T17:41:33.259Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T17:47:51.984Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:09:34.677Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:09:36.218Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:09:46.632Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:10:36.387Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:10:37.510Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:10:37.700Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:10:38.269Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:16:34.266Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:23:20.264Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:23:21.368Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:26:12.042Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:42:21.922Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:43:44.533Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:43:44.758Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:43:46.696Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:43:46.922Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/emp/addemployee 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-11T18:45:30.295Z"}
+error: 
+    status - 500 
+    message - ReferenceError: empModel is not defined
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/emp.service.js:15:27)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getempdata (D:\EmployePayRoll\emppayroll\src\services\/emp.service.js:15:24)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\controllers\/emp.controllers.js:43:47)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/emp/getemployee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T03:05:53.313Z"}
+error: 
+    status - 500 
+    message - ReferenceError: empModel is not defined
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/emp.service.js:15:27)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getempdata (D:\EmployePayRoll\emppayroll\src\services\/emp.service.js:15:24)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\controllers\/emp.controllers.js:43:47)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/emp/getemployee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T03:07:50.761Z"}
+error: 
+    status - 500 
+    message - ReferenceError: empModel is not defined
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\services\/emp.service.js:15:27)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getempdata (D:\EmployePayRoll\emppayroll\src\services\/emp.service.js:15:24)
+    at _callee2$ (D:\EmployePayRoll\emppayroll\src\controllers\/emp.controllers.js:43:47)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/emp/getemployee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T03:07:53.086Z"}
+error: 
+    status - 500 
+    message - ReferenceError: EmpModel is not defined
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\services\/emp.service.js:5:10)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNewEmps (D:\EmployePayRoll\emppayroll\src\services\/emp.service.js:4:24)
+    at _callee$ (D:\EmployePayRoll\emppayroll\src\controllers\/emp.controllers.js:12:51)
+    at tryCatch (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\EmployePayRoll\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\EmployePayRoll\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/emp/addemployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T04:33:36.468Z"}

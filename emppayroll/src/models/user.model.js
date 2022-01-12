@@ -12,7 +12,7 @@ const userSchema = new Schema(
       
       email: {
         type: String,
-        uniqe:true
+        unique:true
       },
       password: {
         type: String

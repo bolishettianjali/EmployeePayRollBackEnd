@@ -274,3 +274,201 @@ info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:58:43 +0000] "GET /api/v1/users/login
 
 info: ::ffff:127.0.0.1 - - [11/Jan/2022:07:59:31 +0000] "GET /api/v1/users/login HTTP/1.1" 200 436 "-" "Thunder Client (https://www.thunderclient.io)"
 
+error: uncaughtException: empRoute is not defined
+ReferenceError: empRoute is not defined
+    at routes (D:\EmployePayRoll\emppayroll\src\routes\/index.js:15:21)
+    at Object.<anonymous> (D:\EmployePayRoll\emppayroll\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Module._compile (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Object.newLoader [as .js] (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\NIRANJAN M\AppData\Roaming\npm\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Jan 11 2022 17:19:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":199138},"process":{"argv":["node","D:\\EmployePayRoll\\emppayroll\\src\\index.js"],"cwd":"D:\\EmployePayRoll\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18459961,"external":20159351,"heapTotal":93642752,"heapUsed":56430520,"rss":129572864},"pid":18032,"uid":null,"version":"v17.3.0"},"stack":"ReferenceError: empRoute is not defined\n    at routes (D:\\EmployePayRoll\\emppayroll\\src\\routes\\/index.js:15:21)\n    at Object.<anonymous> (D:\\EmployePayRoll\\emppayroll\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Module._compile (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Object.newLoader [as .js] (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1097:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)\n    at Module.load (node:internal/modules/cjs/loader:975:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":21,"file":"D:\\EmployePayRoll\\emppayroll\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":32,"file":"D:\\EmployePayRoll\\emppayroll\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":7,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\NIRANJAN M\\AppData\\Roaming\\npm\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1097,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1149,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":975,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:19:32 +0000] "POST /api/v1/user/register HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:22:54 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:23:26 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:23:36 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:24:10 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:24:28 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:25:55 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:30:46 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:33:08 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:33:10 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:33:19 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:33:23 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:34:44 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:34:55 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:35:03 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:40:37 +0000] "POST /api/v1/user/register HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:40:43 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:40:59 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:41:01 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:42:06 +0000] "GET /api/v1/users/register HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:44:12 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:47:03 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:49:25 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:49:47 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:55:46 +0000] "GET /api/v1/users/login HTTP/1.1" 403 51 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:56:16 +0000] "GET /api/v1/users/login HTTP/1.1" 403 51 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:12:56:18 +0000] "GET /api/v1/users/login HTTP/1.1" 403 51 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:13:02:34 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:13:02:38 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:13:02:43 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:13:05:34 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:15:19:42 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:15:20:17 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:15:21:57 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:16:45:20 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:16:48:19 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:16:48:26 +0000] "POST /api/v1/users/register HTTP/1.1" 403 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:08:04 +0000] "POST /api/v1/users/register HTTP/1.1" 200 274 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:09:25 +0000] "GET /api/v1/users/login HTTP/1.1" 200 429 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:20:59 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:25:32 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:25:40 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:35:04 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:35:04 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:39:31 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:41:33 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:17:47:51 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:09:34 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:09:36 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:09:46 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:10:36 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:10:37 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:10:37 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:10:38 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:12:18 +0000] "POST /api/v1/users/register HTTP/1.1" 200 275 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:12:44 +0000] "GET /api/v1/users/login HTTP/1.1" 200 432 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:16:34 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:23:20 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:23:21 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:26:12 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:42:21 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:43:44 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:43:44 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:43:46 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:43:46 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:45:30 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:46:02 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:47:51 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:18:48:01 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:02:34:18 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:02:38:09 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:02:38:09 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:02:41:12 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:02:41:14 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:02:41:17 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:02:41:30 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:02:43:19 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:02:52:26 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 200 251 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:03:02:59 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 200 187 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:03:03:17 +0000] "GET /api/v1/emp/addemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:03:03:25 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:03:03:26 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:03:04:49 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:03:04:51 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:03:05:53 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:03:07:50 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:03:07:53 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:04:26:08 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 200 233 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:04:26:23 +0000] "GET /api/v1/emp/getemployee HTTP/1.1" 200 233 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:04:33:36 +0000] "POST /api/v1/emp/addemployee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
