@@ -156,3 +156,24 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-01-12T04:33:36.468Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-12T04:36:04.765Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T04:36:07.775Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-12T06:45:27.317Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T06:45:29.770Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T06:45:29.770Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-12T07:40:07.579Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:40:10.608Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:40:10.618Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-12T07:44:57.610Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:45:00.953Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-12T07:45:30.880Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:45:33.970Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-12T07:46:39.416Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:46:43.612Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-12T09:41:40.849Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T09:41:51.944Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-12T09:43:51.195Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T09:44:02.941Z"}
+info: Server started at http://localhost:5050/api/v1/ {"timestamp":"2022-01-12T09:50:24.478Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T09:50:26.686Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T09:50:26.814Z"}

@@ -14,7 +14,7 @@ const userSchema = new Schema({
           type:String
      },
      salary:{
-          type:String
+          type:Number
      },
      company:{
           type:String
